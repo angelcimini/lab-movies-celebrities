@@ -1,0 +1,22 @@
+{{#if err}}
+    {{err}}
+{{/if}}
+
+<div class="containerForm">
+    <h2> Add celebrities </h2>
+    <form action="create" method="POST">
+            <div class="divForm border border-light">
+                <label for="nameCelebrity">Celebrity name</label>
+                <input type="text" id="nameCelebrity" name="name">
+            </div>
+            <div class="divForm border border-light">        
+                <label for="ocupation">Ocupation</label>
+                <input type="text" id="ocupation" name="ocupation">
+            </div>
+            <div class="divForm border border-light">
+                <label for="catchPhrase">Any CatchPhrase?</label>
+                <input type="text" id="catchPhrase" name="catchPhrase">
+            </div>
+        <button type="submit" class="btn btn-success mt-5">Enviar</button>
+    </form>
+</div>

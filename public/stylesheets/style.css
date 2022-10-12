@@ -1,8 +1,70 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #5e3200;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: rgb(33, 126, 26);
+  text-shadow: 2px 2px black;
 }
 
 a {
-  color: #00b7ff;
+  color: #0400ff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  font-size: 1.4rem;
+}
+
+.labelP {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.valueSpan {
+  color: #4b59ef;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 255, 17);
+  padding: 0px;
+  margin: 5px;
+  
+}
+
+.decorationDiv {
+  background-color: #f1fed1;
+  border-radius: 15px;  
+}
+
+.containerForm {
+  width: 50vw;
+  margin: auto;
+}
+
+.divForm {
+  display: block;
+  padding: 5px;
+  font-size: 1.2rem;
+  justify-content: center;
+  text-align: end;
+  border-radius: 12px;
+}
+
+.divForm label {
+  font-weight: bold;
+  color: rgb(33, 126, 26);;
+  text-shadow: 2px 2px black;
+}
+
+.divForm input {
+  width: 70%;
+  line-height: 2rem;
+  border-radius: 12px;
+  padding: 4px;
 }

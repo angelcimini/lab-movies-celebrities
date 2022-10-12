@@ -1,0 +1,23 @@
+<div class="containerArray">
+        <a href="/celebrities/create"> Crear una nueva celebrity </a>
+        <hr>
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col decorationDiv">
+            <p class="labelP">Nombre:</p>
+            {{#each celebrities}} <p class="valueSpan">{{name}}</p> {{/each}}
+        </div>
+        <div class="col decorationDiv">
+            <p class="labelP">Ocupación:</p>
+            {{#each celebrities}} <p class="valueSpan">{{ocupation}}</p> {{/each}}
+        </div>
+        <div class="col decorationDiv">
+            <p class="labelP">Su frase:</p>
+            {{#each celebrities}} <p class="valueSpan font-italic">"{{catchPhrase}}"</p> {{/each}}
+        </div>
+    </div>
+</div>
+
+
+</div>
